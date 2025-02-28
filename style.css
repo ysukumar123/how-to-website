@@ -71,12 +71,12 @@ html {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto 200px 600px 90px; /* Removed the first 150px row */
+  grid-template-rows: auto 200px 600px 90px; 
 }
 
 .header {
   grid-column: 1/4;
-  grid-row: 1/2; /* Changed from 2/3 to 1/2 */
+  grid-row: 1/2; 
   background: rgb(31,28,94);
   background: linear-gradient(90deg, rgba(31,28,94,1) 0%, rgba(7,217,207,1) 100%);
   font-family: Bebas Neue;
@@ -139,4 +139,8 @@ html {
 .how-page .box1 {
   font-size: 70px; 
   line-height: 1.7; 
+}
+
+.box2 img {
+  margin-top: 50px; 
 }
